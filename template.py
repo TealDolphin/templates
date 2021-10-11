@@ -5,7 +5,8 @@ Multi line comment
 
 
 def f(i):
-    return "Hello World!"
+    str = "Hello World!"
+    return str
 
 if __name__ == "__main__":
     print(f(1))
