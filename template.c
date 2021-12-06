@@ -10,7 +10,7 @@ char * func(int var){
     return str;
 }
 
-int main(){
+int main(int argc, char *argv[]){
    printf("%s\n",func(3));
    return 0;
 }
